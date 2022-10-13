@@ -5,11 +5,6 @@
 */
 int main(void)
 {
-	char acharacter;
-	int ainteger;
-	long along;
-	long long alonglong;
-	float afloat;
 	printf("size of a char: %zu byte(s)\n", sizeof(acharacter));
 	printf("size of an int: %zu byte(s)\n", sizeof(ainteger));
 	printf("size of a long int: %zu byte(s)\n", sizeof(along));
