@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main -Entry point
  * Return: Always 0 (success)
@@ -9,9 +10,12 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'z') {
-			if ((c != 'q' && c != 'e') && c <= 'z')
+			if ((c != 'q' && c != 'a') && c <= 'z')
 				putchar(c);c++;
 		}
 	putchar('\n');
 	return (0);
+
+
+
 }
