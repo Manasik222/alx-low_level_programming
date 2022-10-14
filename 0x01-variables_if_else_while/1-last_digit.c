@@ -1,7 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ * main -entry point
+ * Description: prin if number  random number to the variable
+ * Return: 0
+ */
 int main(void)
 {
 
