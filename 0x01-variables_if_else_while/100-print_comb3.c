@@ -1,34 +1,37 @@
 #include <stdio.h>
-
 /**
- * main - Prints combination of numbers
- * Return: Always (Success)
- */
+ *  *main-program entry point.
+ *   *Return:0 success, non zero fail
+ *    */
 int main(void)
 {
-	int c, i;
+		int i, k = '0', j;
 
-
-    	for (c = '0'; c <= '9'; c++)
-	{
-		for (i = '0'; i <= '9'; i++)
-		{
-			if (c < i)
-			{
-				putchar(c);
-				putchar(i);
-
-			
-				if (c != '8' || (c == '8' && i != '9'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
-
-
-  	putchar('\n');
-	return (0);
+			for (i = '0'; i <= '9'; i++)
+					{
+								for (j = k; j <= '9'; j++)
+											{
+															if (i != j)
+																			{
+																								putchar(i);
+																												putchar(j);
+																															}
+																		if (i == j)
+																						{
+																											continue;
+																														}
+																					if (i == '8' && j == '9')
+																									{
+																														break;
+																																	}
+																								else
+																												{
+																																	putchar(',');
+																																					putchar(' ');
+																																								}
+																										}
+										k++;
+											}
+				putchar('\n');
+					return (0);
 }
