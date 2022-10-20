@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
- * _isdigit - checks for a digit (0 through 9).
- * @c: the nuber to be checked
+/**
+ * _isdigit - write a function that check for a digit (0 through 9)
+ * @c: char to check
  * Return:  0 or 1
  */
 
