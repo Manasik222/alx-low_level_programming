@@ -1,1 +1,1 @@
-C - More pointers, arrays and strings
+eadme for this Projects. Pointers array and strings. Various task completed
